@@ -1,0 +1,36 @@
+.pc-view {
+    position: relative;
+    width: 511px;
+    height: 550px;
+    margin: 50px auto;
+    border: 2px solid #333;
+    background-color: rgb(206, 206, 206);
+    overflow: hidden;
+    text-align: center;
+}
+.card-container {
+    position: absolute;
+    top: 140px;
+    left: 20px;
+    display: flex;
+}
+.card {
+    width: 350px;
+    height: 230px;
+    background-color: rgb(255, 148, 148);
+    margin-right: 15px;
+    display: flex;
+    border: deeppink 2px solid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+@media screen and (max-width: 700px) {
+    .pc-view {
+        width: 440px;
+    }
+    .card {
+        width: 300px;
+    }
+}
